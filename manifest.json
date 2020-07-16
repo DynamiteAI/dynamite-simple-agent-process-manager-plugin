@@ -1,0 +1,27 @@
+{
+  "meta": {
+    "name": "Simple Process Manager",
+    "description": "Start and stop all agent components: Zeek, Suricata, FileBeat. View running status and process information.",
+    "version": "0.1",
+    "role": "agent",
+    "author": "Jamin Becker",
+    "website": "https://dynamite.ai",
+    "code_repo_url": "https://github.com/dynamite-nsm/"
+  },
+  "permissions": {
+    "requires": "admin"
+  },
+  "toolbar": {
+    "icon": "icon.png",
+    "show": true
+  },
+  "files": {
+    "javascript": [
+      "event_handlers.js",
+      "init.js"
+    ],
+    "css": [
+      "style.css"
+    ]
+  }
+}
