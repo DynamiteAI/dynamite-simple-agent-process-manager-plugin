@@ -3,7 +3,7 @@
 Simple process manager is a very basic manager for controlling various agent components: Zeek, Suricata, and FileBeat. It can be installed on any [dynamite-nsm agent (>= 0.7.2)](https://github.com/DynamiteAI/dynamite-nsm/releases).
 
 <p align="center">
-    <img src="https://github.com/DynamiteAI/dynamite-simple-agent-process-manager-plugin/raw/master/simple-process-manager.png"  width="90%" height="auto">
+    <img src="https://github.com/DynamiteAI/dynamite-simple-agent-process-manager-plugin/raw/master/tutorial/simple-process-manager.png"  width="90%" height="auto">
 </p>
 
 ## Prerequisites
