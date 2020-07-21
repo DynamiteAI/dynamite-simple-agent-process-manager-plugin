@@ -1,16 +1,13 @@
 
 <div class="row">
-    <div class="col-lg-3"></div>
-    <div class="col-lg-6">
-        <hr>
-        <br>
-        <div class="card" style="height:400px">
+    <div class="col-lg-4">
+        <div class="card">
             <div class="card border-primary">
-                <h3 class="card-header fa fa-server" style="position: relative">
+                <h3 class="card-header fa fa-eye" style="position: relative">
                     Zeek <span id="zeek-loading" class="spinner-border spinner-border-sm text-primary" role="status" style="float:right;display:none;"></span>
                 </h3>
 
-               <div class="card-body">
+               <div class="card-body" style="height:500px">
                    <div style="float: right">
                        <div class="checkbox">
                            <input type="checkbox" data-toggle="toggle" id="zeek-toggle" data-onstyle="success" data-offstyle="danger">
@@ -30,11 +27,12 @@
                </div>
             </div>
         </div>
-        <br><br><br><br>
+    </div>
+    <div class="col-lg-4">
         <div class="card">
             <div class="card border-primary">
-              <h3 class="card-header fa fa-server"> Suricata <span id="suricata-loading" class="spinner-border spinner-border-sm text-primary" role="status" style="float:right;display:none;"></span></h3>
-               <div class="card-body">
+              <h3 class="card-header fa fa-eye"> Suricata <span id="suricata-loading" class="spinner-border spinner-border-sm text-primary" role="status" style="float:right;display:none;"></span></h3>
+               <div class="card-body" style="height:500px">
                    <div style="float: right">
                        <div class="checkbox">
                            <input type="checkbox" data-toggle="toggle" id="suricata-toggle" data-onstyle="success" data-offstyle="danger">
@@ -54,11 +52,12 @@
                </div>
             </div>
         </div>
-        <br><br><br><br>
+    </div>
+    <div class="col-lg-4">
         <div class="card">
             <div class="card border-primary">
               <h3 class="card-header fa fa-upload"> FileBeat <span id="filebeat-loading" class="spinner-border spinner-border-sm text-primary" role="status" style="float:right;display:none;"></span></h3>
-               <div class="card-body">
+               <div class="card-body" style="height:500px">
                    <div style="float: right">
                        <div class="checkbox">
                            <input type="checkbox" data-toggle="toggle" id="filebeat-toggle" data-onstyle="success" data-offstyle="danger">
@@ -79,5 +78,4 @@
             </div>
         </div>
     </div>
-    <div class="col-lg-3"></div>
 </div>
